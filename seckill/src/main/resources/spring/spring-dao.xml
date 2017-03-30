@@ -52,10 +52,10 @@
     </bean>
 
 
-<!-- <context:property-placeholder location="classpath:conf/redis.properties"/>-->
+    <!-- <context:property-placeholder location="classpath:conf/redis.properties"/>-->
     <!--redisdao-->
     <bean id="redisDao" class="org.seckill.dao.cache.RedisDao">
-        <constructor-arg index="0" value="${redis.host}"/>
+        <constructor-arg index="0" value="192.168.16.128"/>
         <constructor-arg index="1" value="6379"/>
         <constructor-arg index="2" value="123"/>
     </bean>

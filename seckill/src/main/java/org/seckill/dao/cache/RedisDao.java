@@ -16,6 +16,7 @@ import static javafx.scene.input.KeyCode.J;
 
 /**
  * Created by CHEN on 2016/6/1.
+ * 用来暴露接口
  */
 public class RedisDao {
     private final JedisPool jedisPool;
